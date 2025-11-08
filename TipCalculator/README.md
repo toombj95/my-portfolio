@@ -16,7 +16,8 @@ A Python program that calculates tips for a given bill and supports splitting th
 
 \- Supports large bill amounts with commas and dollar signs
 
-
+#Screenshot
+![Tip Calculator Screenshot](./tip_calculator.png)
 
 \## How to Run
 
@@ -61,6 +62,7 @@ Total to pay:     $55.50
 Each person pays: $27.75
 
 Thank you for using the tip calculator! 💵
+
 
 
 
