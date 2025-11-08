@@ -1,28 +1,45 @@
-# My Coding Portfolio
+** 🎢 Ultimate Disneyland App **
 
-Welcome! This portfolio showcases Python projects I’ve built, demonstrating problem-solving, data handling, and object-oriented programming skills. Each project includes code samples, screenshots, and usage instructions.
+A Python program that combines Disneyland ticketing and ride tracking — calculate ticket costs for your party and explore ride wait times, all in one app!
 
-## Projects
+![Ultimate Disneyland App Screenshot](./images/UltimateDisneylandAppScreenshot.png)
 
-### Tip Calculator
-A Python program that calculates tips, handles bill splitting, and validates inputs.  
 
-![Tip Calculator Preview](./TipCalculator/TipCalSmall.png)
+** Skills Demonstrated **
+- Python basics (input/output, data types, control flow)
+- Lists and data aggregation
+- Input validation and error handling
+- Modular program structure
+- User-friendly terminal UI
 
-[View project →](./TipCalculator)
 
-### Ultimate Disneyland App
-Combines ticketing and ride tracking in one Python program. Calculates ticket costs and tracks ride wait times.  
+** Features **
+- **Ticketing:** Calculates ticket costs for adults, children, and toddlers (limit 8 guests)
+- **Ride Tracker:** Displays default rides, lets users add new rides, and shows average, shortest, and longest wait times
 
-![Disneyland App Preview](./DisneylandApp/DisneylandTicketPreview.png)
-![Disneyland App Preview 2](./DisneylandApp/DisneylandRidePreview.png)
 
-[View project →](./DisneylandApp)
+** How to Run **
+1. Open `UltimateDisneylandApp.py` in IDLE or your terminal  
+2. Enter the number of guests and their ages  
+3. Add ride names and wait times when prompted  
+4. View total cost, average waits, and ride summaries
 
-## Skills Demonstrated
+** Example Output **
+How many guests in your party? (Limit 8 guests per party): 4
+Enter age of guest 1: 35
+Enter age of guest 2: 33
+Enter age of guest 3: 8
+Enter age of guest 4: 1
 
-- Python fundamentals (variables, loops, conditionals)
-- Functions and input validation
-- Object-Oriented Programming (Classes, Inheritance)
-- Lists and data management
-- Markdown for documentation
+Total cost = $435.00
+
+Welcome to Disneyland Ride Tracker App! 🏰 Enter another ride? (y/n): y
+Enter ride name: Space Mountain
+Enter wait time for Space Mountain in minutes: 60
+Enter another ride? (y/n): n
+
+Average wait time for all rides: 30.0 minutes
+Shortest wait: Haunted Mansion - 13 minutes
+Longest wait: Space Mountain - 60 minutes
+
+Enjoy your stay at Disneyland, the happiest place on Earth! 🏰✨
