@@ -1,37 +1,37 @@
 ### \#Tip Calculator
 
+![Tip Calculator Screenshot](tip_calculator.png)
 
-
+**Description**
 A Python program that calculates tips for a given bill and supports splitting the total between multiple people.
 
-\## Features
+**Features**
 
-\- Calculates suggested tips (15%, 20%, 25%)
+- Calculates suggested tips (15%, 20%, 25%)
 
-\- Accepts custom tip input
+- Accepts custom tip input
 
-\- Handles bill splitting
+- Handles bill splitting
 
-\- Input validation for positive numbers
+- Input validation for positive numbers
 
-\- Supports large bill amounts with commas and dollar signs
-
-
-
-\## How to Run
-
-1\. Make sure Python is installed on your computer.
-
-2\. Open `TipCalculator.py` in IDLE or your terminal.
-
-3\. Enter your bill amount, tip, and number of people when prompted.
+- Supports large bill amounts with commas and dollar signs
 
 
 
+**How to Run**
+
+1. Make sure Python is installed on your computer.
+
+2. Open `TipCalculator.py` in IDLE or your terminal.
+
+3. Enter your bill amount, tip, and number of people when prompted.
+
+
+**Example Usage**
 Welcome to the Tip Calculator 💵
 
 Enter your bill amount: $45.50
-
 
 
 Suggested Gratuities
@@ -43,13 +43,10 @@ Suggested Gratuities
 25%        $11.38
 
 
-
 Please enter your tip amount =======> $10
 
 
-
 Split between how many people? 2
-
 
 
 Bill amount:      $45.50
@@ -63,4 +60,9 @@ Each person pays: $27.75
 Thank you for using the tip calculator! 💵
 
 
+**Skills Demonstrated:**  
+- Input handling
+- Calculations and formatting
+- User-friendly output
+- Simple logic for branching and error handling
 
