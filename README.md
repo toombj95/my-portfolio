@@ -7,7 +7,7 @@ Welcome! This portfolio showcases Python projects I’ve built, demonstrating pr
 ### Tip Calculator
 A Python program that calculates tips, handles bill splitting, and validates inputs.  
 
-![Tip Calculator Preview](./TipCalculator/TipCalcSmall.png)  
+![Tip Calculator Preview](./TipCalculator/TipCalSmall.png)
 
 [View project →](./TipCalculator)
 
