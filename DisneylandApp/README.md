@@ -2,7 +2,7 @@
 
 A Python program that combines Disneyland ticketing and ride tracking — calculate ticket costs for your party and explore ride wait times, all in one app!
 
-![Ultimate Disneyland App Screenshot](./DisneylandApp/DisneylandApp.png)
+![Ultimate Disneyland App Screenshot](./DisneylandApp.png)
 
 
 ** Skills Demonstrated **
@@ -44,3 +44,4 @@ Longest wait: Space Mountain - 60 minutes
 
 
 Enjoy your stay at Disneyland, the happiest place on Earth! 🏰✨
+
