@@ -2,7 +2,7 @@
 
 A Python program that combines Disneyland ticketing and ride tracking — calculate ticket costs for your party and explore ride wait times, all in one app!
 
-![Ultimate Disneyland App Screenshot](./images/UltimateDisneylandAppScreenshot.png)
+![Ultimate Disneyland App Screenshot](./DisneylandApp/DisneylandApp.png)
 
 
 ** Skills Demonstrated **
@@ -41,5 +41,6 @@ Enter another ride? (y/n): n
 Average wait time for all rides: 30.0 minutes
 Shortest wait: Haunted Mansion - 13 minutes
 Longest wait: Space Mountain - 60 minutes
+
 
 Enjoy your stay at Disneyland, the happiest place on Earth! 🏰✨
