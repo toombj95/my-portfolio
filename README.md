@@ -1,68 +1,45 @@
-### \#Tip Calculator
+** 🎢 Ultimate Disneyland App **
 
-![Tip Calculator Screenshot](tip_calculator.png)
+A Python program that combines Disneyland ticketing and ride tracking — calculate ticket costs for your party and explore ride wait times, all in one app!
 
-**Description**
-A Python program that calculates tips for a given bill and supports splitting the total between multiple people.
-
-**Features**
-
-- Calculates suggested tips (15%, 20%, 25%)
-
-- Accepts custom tip input
-
-- Handles bill splitting
-
-- Input validation for positive numbers
-
-- Supports large bill amounts with commas and dollar signs
+![Ultimate Disneyland App Screenshot](./images/UltimateDisneylandAppScreenshot.png)
 
 
-
-**How to Run**
-
-1. Make sure Python is installed on your computer.
-
-2. Open `TipCalculator.py` in IDLE or your terminal.
-
-3. Enter your bill amount, tip, and number of people when prompted.
+** Skills Demonstrated **
+- Python basics (input/output, data types, control flow)
+- Lists and data aggregation
+- Input validation and error handling
+- Modular program structure
+- User-friendly terminal UI
 
 
-**Example Usage**
-Welcome to the Tip Calculator 💵
-
-Enter your bill amount: $45.50
-
-
-Suggested Gratuities
-
-15%        $6.83
-
-20%        $9.10
-
-25%        $11.38
+** Features **
+- **Ticketing:** Calculates ticket costs for adults, children, and toddlers (limit 8 guests)
+- **Ride Tracker:** Displays default rides, lets users add new rides, and shows average, shortest, and longest wait times
 
 
-Please enter your tip amount =======> $10
+** How to Run **
+1. Open `UltimateDisneylandApp.py` in IDLE or your terminal  
+2. Enter the number of guests and their ages  
+3. Add ride names and wait times when prompted  
+4. View total cost, average waits, and ride summaries
 
+** Example Output **
+How many guests in your party? (Limit 8 guests per party): 4
+Enter age of guest 1: 35
+Enter age of guest 2: 33
+Enter age of guest 3: 8
+Enter age of guest 4: 1
 
-Split between how many people? 2
+Total cost = $435.00
 
+Welcome to Disneyland Ride Tracker App! 🏰 Enter another ride? (y/n): y
+Enter ride name: Space Mountain
+Enter wait time for Space Mountain in minutes: 60
+Enter another ride? (y/n): n
 
-Bill amount:      $45.50
+Average wait time for all rides: 30.0 minutes
+Shortest wait: Haunted Mansion - 13 minutes
+Longest wait: Space Mountain - 60 minutes
 
-Tip amount:       $10.00
-
-Total to pay:     $55.50
-
-Each person pays: $27.75
-
-Thank you for using the tip calculator! 💵
-
-
-**Skills Demonstrated:**  
-- Input handling
-- Calculations and formatting
-- User-friendly output
-- Simple logic for branching and error handling
-
+Enjoy your stay at Disneyland, the happiest place on Earth! 🏰✨
