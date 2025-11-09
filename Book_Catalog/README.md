@@ -92,7 +92,7 @@ Displays all authors and books.
 
 
 
-!\[Book\_Catalog- Full Catalog Preview → shows full catalog before any changes](./Book\_Catalog/Option1.png)
+![Book Catalog- Full Catalog Preview → shows full catalog before any changes](./Book_Catalog/Option1.png)
 
 
 
@@ -102,7 +102,7 @@ User adds a new book or author.
 
 
 
-!\[Book\_Catalog- Add a Book Preview → shows new book successfully added](./Book\_Catalog/Option2.png)
+![Book_Catalog- Add a Book Preview → shows new book successfully added](./Book_Catalog/Option2.png)
 
 
 
@@ -112,7 +112,7 @@ User checks out one or multiple books; due dates displayed.
 
 
 
-!\[Book\_Catalog- Checkout w/ Due Date Preview → shows checkout and due dates](./Book\_Catalog/Option3.png)
+![Book_Catalog- Checkout w/ Due Date Preview → shows checkout and due dates](./Book_Catalog/Option3.png)
 
 
 
@@ -122,7 +122,7 @@ Lists authors with multiple books in the catalog.
 
 
 
-!\[Book\_Catalog- Popular Authors Preview → shows authors with multiple books](./Book\_Catalog/Option4.png)
+![Book Catalog- Popular Authors Preview → shows authors with multiple books](./Book_Catalog/Option4.png)
 
 
 
@@ -132,7 +132,7 @@ Displays only books currently available for checkout, grouped by author.
 
 
 
-!\[Book\_Catalog- Available Books Preview → shows filtered available books](./Book\_Catalog/Option5.png)
+![Book Catalog- Available Books Preview → shows filtered available books](.Book_Catalog/Option5.png)
 
 
 
@@ -142,5 +142,6 @@ Clean exit from the program.
 
 
 
-!\[Book\_Catalog- Exit Preview → shows program exit](./Book\_Catalog/Option6.png)
+![Book Catalog- Exit Preview → shows program exit](./Book_Catalog/Option6.png)
+
 
