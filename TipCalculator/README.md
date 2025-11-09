@@ -1,5 +1,5 @@
-#Tip Calculator
 
+#Tip Calculator
 
 
 A Python program that calculates tips for a given bill and supports splitting the total between multiple people.
@@ -63,6 +63,7 @@ Total to pay:     $55.50
 Each person pays: $27.75
 
 Thank you for using the tip calculator! 💵
+
 
 
 
