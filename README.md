@@ -39,6 +39,7 @@ A collection of Python problems solved using recursion. Includes countdowns, hou
 A Python program that simulates characters, players, and enemies with combat mechanics, inheritance, and operator overloading. Includes refactoring of previous code for better modularity and readability.
 
 ![RPG Simulator Preview](./RPG_Simulator/RPGNumPlayers.png)
+
 [View project →](https://github.com/toombj95/my-portfolio/tree/main/RPG_Simulator)
 
 ## Skills Demonstrated
@@ -54,6 +55,7 @@ A Python program that simulates characters, players, and enemies with combat mec
 - Recursion and algorithmic problem solving
 - File system handling (os module)
 - Markdown for documentation
+
 
 
 
