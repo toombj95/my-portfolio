@@ -55,7 +55,7 @@ Tracks experience points (XP), manages attacks, defenses, and leveling.
 
 &nbsp;	- `xp`: Experience points  
 
-&nbsp;	- `base\_damage`: Attack power that scales with level  
+&nbsp;	- `base_damage`: Attack power that scales with level  
 
 &nbsp;	- `defending`: Flag for reducing damage when defending  
 
@@ -144,6 +144,7 @@ The battle ends when all players or enemies are defeated.
 &nbsp;  Verify installation with:
 &nbsp;  ```bash
 &nbsp;  python --version
+
 
 
 
