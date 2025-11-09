@@ -38,9 +38,9 @@ Defines shared attributes (`name`, `level`, `hp`) and core functionality.
 **Key Features:**
 - Inheritance base for `Player` and `Enemy`
 
-- Combine characters using `\_\_add\_\_`
+- Combine characters using `__add__`
 
-- Compare or print characters cleanly with `\_\_str\_\_`
+- Compare or print characters cleanly with `__str__`
 
 
 ### 2. Player Class (`Player`)
@@ -65,11 +65,11 @@ Tracks experience points (XP), manages attacks, defenses, and leveling.
 
 - `attack(target)`: Deals damage and grants XP per attack  
 
-- `add\_xp(amount)`: Increases XP and triggers level-ups  
+- `add_xp(amount)`: Increases XP and triggers level-ups  
 
-- `level\_up()`: Boosts HP and base damage  
+- `level_up()`: Boosts HP and base damage  
 
-- `take\_damage(value)`: Reduces HP based on incoming attacks  
+- `take_damage(value)`: Reduces HP based on incoming attacks  
 
 
 
@@ -88,16 +88,16 @@ Represents AI-controlled foes with armor and attack power.
 **Attributes:**
 
 - `armor`: Damage buffer before HP loss  
-- `base\_damage`: Attack power  
+- `base_damage`: Attack power  
 
 
 **Key Methods:**
 
 - `attack(target)`: Attacks a random player  
 
-- `deal\_damage()`: Applies a class-based damage multiplier  
+- `deal_damage()`: Applies a class-based damage multiplier  
 
-- `take\_damage(value)`: Reduces armor first, then HP  
+- `take_damage(value)`: Reduces armor first, then HP  
 
 
 🧱 **Armor Mechanics:**  
@@ -144,6 +144,7 @@ The battle ends when all players or enemies are defeated.
 &nbsp;  Verify installation with:
 &nbsp;  ```bash
 &nbsp;  python --version
+
 
 
 
