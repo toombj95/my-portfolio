@@ -1,14 +1,10 @@
-📚 Book Catalog System
 
-
+# 📚 Book Catalog System
 
 A Python interactive library program that allows users to manage a book catalog, check out books with due dates, view available books, and identify popular authors. Demonstrates modular design, dictionaries/sets, user input, and date handling.
 
 
-
-\*\*Features\*\*
-
-
+## Features
 
 * View full catalog by author and book.
 * Add new books interactively.
@@ -18,10 +14,7 @@ A Python interactive library program that allows users to manage a book catalog,
 * Prevents duplicate checkout attempts and dynamically updates availability.
 
 
-
-\*\*How It Works\*\*
-
-
+## How It Works
 
 1. Catalog Creation: Pre-filled with example authors/books, with option to add more.
 2. Adding Books: Enter first name, last name, and book title; new authors added automatically.
@@ -31,27 +24,18 @@ A Python interactive library program that allows users to manage a book catalog,
 
 
 
-🖥 Example Interactive Session
+## 🖥 Example Interactive Session
 
 Welcome to the Book Catalog Library System!
 
-
-
 Options:
 
-1\. View full catalog
-
-2\. Add a book to the catalog
-
-3\. Checkout a book (with due date)
-
-4\. View popular authors
-
-5\. View available books
-
-6\. Exit
-
-
+1. View full catalog
+2. Add a book to the catalog
+3. Checkout a book (with due date)
+4. View popular authors
+5. View available books
+6. Exit
 
 Enter your choice (1-6): 3
 
@@ -62,16 +46,13 @@ Enter book(s) to checkout, separated by commas: Parable of the Sower, Long Shot
 Due date for 'Parable of the Sower' set to 11/22/2025
 
 
-
 ✅'Long Shot' successfully checked out!
 
 Due date for 'Long Shot' set to 11/22/2025
 
 
 
-\*\*Skills Demonstrated\*\*
-
-
+## Skills Demonstrated
 
 * Python fundamentals: variables, loops, conditionals
 * Functions with parameters and return values
@@ -82,8 +63,7 @@ Due date for 'Long Shot' set to 11/22/2025
 
 
 
-📸 Screenshots
-
+## 📸 Screenshots
 
 Option 1: View Full Catalog
 
@@ -125,3 +105,4 @@ Option 6: Exit
 Clean exit from the program.
 
 ![Book Catalog- Exit Preview → shows program exit](./Option6.png)
+
