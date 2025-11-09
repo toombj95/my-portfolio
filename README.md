@@ -32,6 +32,7 @@ A Python program that allows users to manage a book catalog, track book checkout
 A collection of Python problems solved using recursion. Includes countdowns, hourglass printing, progress bars, and file occurrence counting.
 
 ![Recursive Toolkit Preview](./Recursive_Toolkit/recursivepreview.png)
+
 [View project →](https://github.com/toombj95/my-portfolio/tree/main/Recursive_Toolkit)
 
 RPG Character Simulator (Future Addition)
@@ -55,4 +56,5 @@ View project →
 - Recursion and algorithmic problem solving
 - File system handling (os module)
 - Markdown for documentation
+
 
