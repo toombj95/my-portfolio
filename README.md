@@ -14,7 +14,8 @@ A Python program that calculates tips, handles bill splitting, and validates inp
 ### Ultimate Disneyland App
 Combines ticketing and ride tracking in one Python program. Calculates ticket costs and tracks ride wait times.  
 
-![Disneyland App - Ticketing Preview](./DisneylandApp/DisneylandTicketPreview.png)  
+![Disneyland App - Ticketing Preview](./DisneylandApp/DisneylandTicketPreview.png) 
+
 ![Disneyland App - Ride Tracker Preview](./DisneylandApp/DisneylandRidePreview.png)  
 
 [View project →](./DisneylandApp)
@@ -26,3 +27,4 @@ Combines ticketing and ride tracking in one Python program. Calculates ticket co
 - Object-Oriented Programming (Classes, Inheritance)
 - Lists and data management
 - Markdown for documentation
+
