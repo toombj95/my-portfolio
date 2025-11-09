@@ -84,7 +84,7 @@ Due date for 'Long Shot' set to 11/22/2025
 
 📸 Screenshots
 
-
+![Book Catalog Preview](./Book_Catalog/BookCatalogMenu.png)
 
 Option 1: View Full Catalog
 
@@ -131,4 +131,5 @@ Option 6: Exit
 Clean exit from the program.
 
 ![Book Catalog- Exit Preview → shows program exit](./Book_Catalog/Option6.png)
+
 
