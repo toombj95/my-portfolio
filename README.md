@@ -35,13 +35,11 @@ A collection of Python problems solved using recursion. Includes countdowns, hou
 
 [View project →](https://github.com/toombj95/my-portfolio/tree/main/Recursive_Toolkit)
 
-RPG Character Simulator (Future Addition)
+## RPG Character Simulator
+A Python program that simulates characters, players, and enemies with combat mechanics, inheritance, and operator overloading. Includes refactoring of previous code for better modularity and readability.
 
-Simulates characters, players, and enemies with combat mechanics, inheritance, and operator overloading. Includes refactoring of previous code for better modularity and readability.
-
-Skills Demonstrated: Object-Oriented Programming, Inheritance, Operator Overloading, Method Overriding, Docstrings
-
-View project →
+![RPG Simulator Preview](./RPG_Simulator/RPGNumPlayers.png)
+[View project →](https://github.com/toombj95/my-portfolio/tree/main/RPG_Simulator)
 
 ## Skills Demonstrated
 
@@ -52,9 +50,10 @@ View project →
 - Date handling using the datetime module
 - Input validation and dynamic user input handling
 - Modular program design and code reusability
-- Object-Oriented Programming: Classes, Inheritance, Operator Overloading
+- Object-Oriented Programming: Classes, Inheritance, Operator Overloading, Method Overriding
 - Recursion and algorithmic problem solving
 - File system handling (os module)
 - Markdown for documentation
+
 
 
