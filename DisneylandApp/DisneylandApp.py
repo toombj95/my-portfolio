@@ -1,3 +1,5 @@
+#A Python-based project created for a programming class, inspired by the theme park experience. This is an unofficial and educational simulation of ticketing and ride-tracking features.
+
 print('\U0001F3F0 \U0001F478 Welcome to the Ultimate Disneyland App! \U0001F478 \U0001F3F0')
 print('\nManage tickets and track rides in one place!\n')
 
@@ -141,3 +143,4 @@ print(f"\nShortest wait time: {rides[index_lowest]} - {waitTimes[index_lowest]:.
 print(f"\nLongest wait time: {rides[index_highest]} - {waitTimes[index_highest]:.1f} minutes.")
 print("\nThank you for using the Ultimate Disneyland App!")
 print("\nEnjoy your stay at Disneyland, the happiest place on Earth! \U0001F3F0 ")
+
