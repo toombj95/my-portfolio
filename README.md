@@ -11,7 +11,8 @@ A Python program that calculates tips, handles bill splitting, and validates inp
 
 [View project →](https://github.com/toombj95/my-portfolio/tree/main/TipCalculator)
 
-### Ultimate Disneyland App
+### Ultimate Disneyland App (Educational Project)
+A Python-based project created for a programming class, inspired by the theme park experience. This is an unofficial and educational simulation of ticketing and ride-tracking features.
 Combines ticketing and ride tracking in one Python program. Calculates ticket costs and tracks ride wait times.  
 
 ![Disneyland App - Ticketing Preview](./DisneylandApp/DisneylandTicketPreview.png) 
@@ -27,5 +28,6 @@ Combines ticketing and ride tracking in one Python program. Calculates ticket co
 - Object-Oriented Programming (Classes, Inheritance)
 - Lists and data management
 - Markdown for documentation
+
 
 
