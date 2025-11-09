@@ -25,6 +25,7 @@ Combines ticketing and ride tracking in one Python program. Calculates ticket co
 A Python program that allows users to manage a book catalog, track book checkouts, and calculate due dates. Users can view the full catalog, add new books, checkout books with due dates, and view popular authors.
 
 ![Book Catalog Preview](./Book_Catalog/BookCatalogMenu.png)
+
 [View project →](https://github.com/toombj95/my-portfolio/tree/main/Book_Catalog)
 
 ## Skills Demonstrated
@@ -38,6 +39,7 @@ A Python program that allows users to manage a book catalog, track book checkout
 - Object-Oriented Programming (Classes, Inheritance)
 - Lists and data management
 - Markdown for documentation
+
 
 
 
