@@ -1,11 +1,13 @@
-** 🎢 Ultimate Disneyland App (Educational Project)
+
+# 🎢 Ultimate Disneyland App (Educational Project)
 
 A Python-based project created for a programming class, inspired by the theme park experience. This is an unofficial and educational simulation of ticketing and ride-tracking features.
 
 ![Ultimate Disneyland App Screenshot](./DisneylandApp.png)
 
 
-** Skills Demonstrated **
+## Skills Demonstrated 
+
 - Python basics (input/output, data types, control flow)
 - Lists and data aggregation
 - Input validation and error handling
@@ -13,18 +15,20 @@ A Python-based project created for a programming class, inspired by the theme pa
 - User-friendly terminal UI
 
 
-** Features **
-- **Ticketing:** Calculates ticket costs for adults, children, and toddlers (limit 8 guests)
-- **Ride Tracker:** Displays default rides, lets users add new rides, and shows average, shortest, and longest wait times
+## Features 
+- Ticketing: Calculates ticket costs for adults, children, and toddlers (limit 8 guests)
+- Ride Tracker: Displays default rides, lets users add new rides, and shows average, shortest, and longest wait times
 
 
-** How to Run **
+## How to Run 
+
 1. Open `UltimateDisneylandApp.py` in IDLE or your terminal  
 2. Enter the number of guests and their ages  
 3. Add ride names and wait times when prompted  
 4. View total cost, average waits, and ride summaries
 
-** Example Output **
+## Example Output 
+
 How many guests in your party? (Limit 8 guests per party): 4
 Enter age of guest 1: 35
 Enter age of guest 2: 33
@@ -42,7 +46,7 @@ Average wait time for all rides: 30.0 minutes
 Shortest wait: Haunted Mansion - 13 minutes
 Longest wait: Space Mountain - 60 minutes
 
-
 Enjoy your stay at Disneyland, the happiest place on Earth! 🏰✨
+
 
 
