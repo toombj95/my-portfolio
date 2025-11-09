@@ -84,52 +84,44 @@ Due date for 'Long Shot' set to 11/22/2025
 
 📸 Screenshots
 
-![Book Catalog Preview](./Book_Catalog/BookCatalogMenu.png)
 
 Option 1: View Full Catalog
 
 Displays all authors and books.
 
-![Book Catalog- Full Catalog Preview → shows full catalog before any changes](./Book_Catalog/Option1.png)
-
+![Book Catalog- Full Catalog Preview → shows full catalog before any changes](./Option1.png)
 
 
 Option 2: Add a Book to the Catalog
 
 User adds a new book or author.
 
-![Book_Catalog- Add a Book Preview → shows new book successfully added](./Book_Catalog/Option2.png)
-
+![Book_Catalog- Add a Book Preview → shows new book successfully added](./Option2.png)
 
 
 Option 3: Checkout Book(s) with Due Date
 
 User checks out one or multiple books; due dates displayed.
 
-![Book_Catalog- Checkout w/ Due Date Preview → shows checkout and due dates](./Book_Catalog/Option3.png)
-
+![Book_Catalog- Checkout w/ Due Date Preview → shows checkout and due dates](./Option3.png)
 
 
 Option 4: View Popular Authors
 
 Lists authors with multiple books in the catalog.
 
-![Book Catalog- Popular Authors Preview → shows authors with multiple books](./Book_Catalog/Option4.png)
-
+![Book Catalog- Popular Authors Preview → shows authors with multiple books](./Option4.png)
 
 
 Option 5: View Available Books
 
 Displays only books currently available for checkout, grouped by author.
 
-![Book Catalog- Available Books Preview → shows filtered available books](./Book_Catalog/Option5.png)
-
+![Book Catalog- Available Books Preview → shows filtered available books](./Option5.png)
 
 
 Option 6: Exit
 
 Clean exit from the program.
 
-![Book Catalog- Exit Preview → shows program exit](./Book_Catalog/Option6.png)
-
-
+![Book Catalog- Exit Preview → shows program exit](./Option6.png)
