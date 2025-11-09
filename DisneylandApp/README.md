@@ -1,6 +1,6 @@
-** 🎢 Ultimate Disneyland App **
+** 🎢 Ultimate Disneyland App (Educational Project)
 
-A Python program that combines Disneyland ticketing and ride tracking — calculate ticket costs for your party and explore ride wait times, all in one app!
+A Python-based project created for a programming class, inspired by the theme park experience. This is an unofficial and educational simulation of ticketing and ride-tracking features.
 
 ![Ultimate Disneyland App Screenshot](./DisneylandApp.png)
 
@@ -44,4 +44,5 @@ Longest wait: Space Mountain - 60 minutes
 
 
 Enjoy your stay at Disneyland, the happiest place on Earth! 🏰✨
+
 
