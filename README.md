@@ -28,18 +28,32 @@ A Python program that allows users to manage a book catalog, track book checkout
 
 [View project →](https://github.com/toombj95/my-portfolio/tree/main/Book_Catalog)
 
+Recursive Toolkit (Future Addition)
+
+A collection of Python problems solved using recursion. Includes countdowns, hourglass printing, progress bars, and file occurrence counting.
+
+Skills Demonstrated: Recursion, algorithmic problem solving, file system navigation, helper functions, docstrings
+
+View project →
+
+RPG Character Simulator (Future Addition)
+
+Simulates characters, players, and enemies with combat mechanics, inheritance, and operator overloading. Includes refactoring of previous code for better modularity and readability.
+
+Skills Demonstrated: Object-Oriented Programming, Inheritance, Operator Overloading, Method Overriding, Docstrings
+
+View project →
+
 ## Skills Demonstrated
 
-- Python fundamentals (variables, loops, conditionals)
+- Python fundamentals: variables, loops, conditionals
 - Functions with parameters and return values
 - Dictionaries, sets, and tuples for data management
-- Date handling using the `datetime` module
+- Lists and advanced data structures
+- Date handling using the datetime module
 - Input validation and dynamic user input handling
 - Modular program design and code reusability
-- Object-Oriented Programming (Classes, Inheritance)
-- Lists and data management
+- Object-Oriented Programming: Classes, Inheritance, Operator Overloading
+- Recursion and algorithmic problem solving
+- File system handling (os module)
 - Markdown for documentation
-
-
-
-
