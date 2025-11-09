@@ -21,10 +21,20 @@ Combines ticketing and ride tracking in one Python program. Calculates ticket co
 
 [View project →](https://github.com/toombj95/my-portfolio/tree/main/DisneylandApp)
 
+## Book Catalog Library System
+A Python program that allows users to manage a book catalog, track book checkouts, and calculate due dates. Users can view the full catalog, add new books, checkout books with due dates, and view popular authors.
+
+![Book Catalog Preview](./Book_Catalog/BookCatalogMenu.png)
+[View project →](https://github.com/toombj95/my-portfolio/tree/main/Book_Catalog)
+
 ## Skills Demonstrated
 
 - Python fundamentals (variables, loops, conditionals)
-- Functions and input validation
+- Functions with parameters and return values
+- Dictionaries, sets, and tuples for data management
+- Date handling using the `datetime` module
+- Input validation and dynamic user input handling
+- Modular program design and code reusability
 - Object-Oriented Programming (Classes, Inheritance)
 - Lists and data management
 - Markdown for documentation
