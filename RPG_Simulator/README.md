@@ -132,16 +132,25 @@ Welcome to the RPG Battle Simulator!
 
 How many players? 2
 Enter Player 1 name (default 'Ashen One'): Zelda
+
 Enter base damage (default 10):
+
 Enter Player 2 name (default 'Ashen One'): Sonic
+
 Enter base damage (default 10):
 
 How many enemies? 2
+
 Enter Enemy 1 name (default 'Goblin'): Oren
+
 Enter HP (default 50):
+
 Enter base damage (default 5):
+
 Enter Enemy 2 name (default 'Goblin'): Troll
+
 Enter HP (default 75):
+
 Enter base damage (default 5):
 
 --- Round 1 ---
@@ -155,7 +164,9 @@ Enter action number: 1
 Enemies:
 1: Oren - HP: 50, Armor: 10
 2: Troll - HP: 75, Armor: 10
+
 Choose enemy to attack (1-2): 2
+
 Zelda attacks Troll for 10.0 damage!
 Zelda gains 5 XP! Total XP: 5
 
@@ -171,6 +182,7 @@ This project is open-source and free to use in personal or educational portfolio
 
 ## 👨‍💻 Author
 Developed by [J. Toombs] — A Python-based portfolio project demonstrating OOP and game design fundamentals.
+
 
 
 
