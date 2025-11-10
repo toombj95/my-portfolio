@@ -131,6 +131,9 @@ Follow the prompts to create characters and start the battle.
 Welcome to the RPG Battle Simulator!
 
 How many players? 2
+
+![Game Start Preview](./RPGNumPlayers.png)
+
 Enter Player 1 name (default 'Ashen One'): Zelda
 
 Enter base damage (default 10):
@@ -138,6 +141,8 @@ Enter base damage (default 10):
 Enter Player 2 name (default 'Ashen One'): Sonic
 
 Enter base damage (default 10):
+
+![Player Creation Preview](./RPGCreatePlayers.png)
 
 How many enemies? 2
 
@@ -153,6 +158,8 @@ Enter HP (default 75):
 
 Enter base damage (default 5):
 
+![Enemy Creation Preview](./RPGEnemyCreation.png)
+
 --- Round 1 ---
 
 Zelda's turn! HP: 100, Level: 1, XP: 0
@@ -167,8 +174,11 @@ Enemies:
 
 Choose enemy to attack (1-2): 2
 
+![Player Action Preview](./RPGPlayerActions.png)
+
 Zelda attacks Troll for 10.0 damage!
 Zelda gains 5 XP! Total XP: 5
+
 
 ## 🏆 Future Enhancements
 - 🎒 Add an inventory system for items and potions
@@ -182,6 +192,7 @@ This project is open-source and free to use in personal or educational portfolio
 
 ## 👨‍💻 Author
 Developed by [J. Toombs] — A Python-based portfolio project demonstrating OOP and game design fundamentals.
+
 
 
 
