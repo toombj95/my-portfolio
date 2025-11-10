@@ -1,130 +1,28 @@
-/* Global Reset */
+//* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Body */
 body {
-    background-color: #f9f9f9; /* very light neutral background */
-    color: #1e1e1e; /* dark text for readability */
+    background-color: #ffffff; /* white background */
+    color: #000000; /* black text */
     line-height: 1.6;
     padding: 20px;
 }
 
-/* Header & Contact Banner */
+/* Header */
 header {
-    background-color: #2d2d2d; /* dark gray for contrast */
-    color: #ffffff; /* text stands out */
+    background-color: #000000; /* black banner */
+    color: #ffffff; /* white text for contrast */
     text-align: center;
-    padding: 25px 10px;
-    border-radius: 8px;
-    margin-bottom: 30px;
+    padding: 20px;
 }
 
 header h1 {
-    font-size: 2.5em;
+    font-size: 2em;
     margin-bottom: 10px;
-}
-
-header p, header a {
-    color: #ffffff;
-    font-size: 1.1em;
-    text-decoration: none;
-}
-
-header a:hover {
-    text-decoration: underline;
-}
-
-/* Projects Section */
-#projects {
-    max-width: 900px;
-    margin: 0 auto 50px auto;
-}
-
-#projects h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333333;
-}
-
-#projects article {
-    background-color: #ffffff; /* card style */
-    margin-bottom: 25px;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-#projects h3 {
-    color: #e07a5f; /* warm accent color for headings */
-    margin-bottom: 10px;
-}
-
-#projects p {
-    color: #1e1e1e;
-    margin-bottom: 10px;
-}
-
-#projects img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
-
-#projects a {
-    color: #e07a5f;
-}
-
-#projects a:hover {
-    text-decoration: underline;
-}
-
-/* Skills Section */
-#skills {
-    max-width: 900px;
-    margin: 0 auto 50px auto;
-}
-
-#skills h2 {
-    text-align: center;
-    margin-bottom: 15px;
-    color: #333333;
-}
-
-#skills ul {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-}
-
-#skills li {
-    background-color: #f4a261; /* light warm blocks */
-    padding: 8px 12px;
-    border-radius: 5px;
-    text-align: center;
-    font-weight: 500;
-    color: #1e1e1e;
-}
-
-/* Footer */
-footer {
-    background-color: #2d2d2d; /* same as header for symmetry */
-    color: #ffffff;
-    text-align: center;
-    margin-top: 40px;
-    padding: 20px;
-    border-radius: 8px;
-    font-size: 0.9em;
-}
-
-footer a {
-    color: #ffffff;
-    text-decoration: underline;
 }
