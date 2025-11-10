@@ -1,28 +1,216 @@
-//* Reset */
+/* ------------------------------------
+  1. Global Reset and Variables
+------------------------------------ */
+:root {
+    /* Define color palette */
+    --color-primary: #1e1e1e;       /* Dark Charcoal for background/text */
+    --color-secondary: #ffffff;     /* White for main text/accents */
+    --color-background: #f4f4f4;    /* Light Gray for main body background */
+    --color-accent: #008080;        /* Deep Teal/Cyan for links/highlights (Not blue, but vibrant) */
+    --color-accent-hover: #00a0a0;  /* Lighter Teal for hover */
+    --color-card-background: #ffffff; /* White for project cards */
+
+    /* Typography */
+    --font-heading: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-body: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+
+    /* Spacing */
+    --spacing-lg: 3rem;
+    --spacing-md: 1.5rem;
+    --spacing-sm: 0.75rem;
+}
+
+/* Simple reset for better cross-browser consistency */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Body */
+/* ------------------------------------
+  2. Base Layout and Typography
+------------------------------------ */
 body {
-    background-color: #ffffff; /* white background */
-    color: #000000; /* black text */
+    font-family: var(--font-body);
+    color: var(--color-primary);
+    background-color: var(--color-background);
     line-height: 1.6;
-    padding: 20px;
+    padding: var(--spacing-lg) 0; /* Vertical padding for separation from edges */
 }
 
-/* Header */
+/* Max width container for central alignment */
+main, header, footer {
+    max-width: 1000px;
+    margin: 0 auto; /* Center the content */
+    padding: 0 var(--spacing-md); /* Horizontal padding */
+}
+
+h1, h2, h3 {
+    font-family: var(--font-heading);
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    border-bottom: 2px solid var(--color-accent); /* Underline section titles */
+    padding-bottom: 0.5rem;
+    margin-top: var(--spacing-lg);
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: var(--color-accent);
+}
+
+p {
+    margin-bottom: var(--spacing-sm);
+}
+
+/* ------------------------------------
+  3. Header (Bio / Intro)
+------------------------------------ */
 header {
-    background-color: #000000; /* black banner */
-    color: #ffffff; /* white text for contrast */
     text-align: center;
-    padding: 20px;
+    padding: var(--spacing-lg);
+    background-color: var(--color-card-background);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: var(--spacing-lg);
 }
 
-header h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
+header p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0.5rem auto;
+}
+
+/* ------------------------------------
+  4. Links and Interactivity
+------------------------------------ */
+a {
+    color: var(--color-accent); /* Make links stand out */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+    font-weight: 600; /* Bolder for visibility */
+}
+
+a:hover {
+    color: var(--color-accent-hover);
+    text-decoration: underline;
+}
+
+/* Special styling for project links */
+#projects article p a {
+    display: inline-block;
+    margin-top: var(--spacing-sm);
+    padding: 0.2rem 0.5rem;
+    border: 1px solid var(--color-accent);
+    border-radius: 4px;
+}
+
+/* ------------------------------------
+  5. Projects Section (Main Content)
+------------------------------------ */
+#projects {
+    display: grid;
+    /* Grid for flexible layout: one column on small screens, two on larger */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+#projects article {
+    background-color: var(--color-card-background);
+    padding: var(--spacing-md);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+#projects article:hover {
+    transform: translateY(-5px); /* Lift card on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling within articles */
+#projects article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: var(--spacing-sm);
+    margin-bottom: var(--spacing-sm);
+    /* For multiple images in one article (e.g., Ultimate Disneyland App) */
+    width: 100%; /* ensures they stack nicely */
+}
+
+/* ------------------------------------
+  6. Skills Section
+------------------------------------ */
+#skills {
+    padding: var(--spacing-md);
+    background-color: var(--color-card-background);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: var(--spacing-lg);
+}
+
+#skills ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    gap: 10px; /* Space between list items */
+}
+
+#skills li {
+    background-color: var(--color-accent);
+    color: var(--color-secondary); /* White text on Teal background */
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+/* ------------------------------------
+  7. Footer (Contact)
+------------------------------------ */
+footer {
+    text-align: center;
+    padding: var(--spacing-md);
+    border-top: 1px solid #ccc;
+    font-size: 0.9rem;
+    margin-top: var(--spacing-lg);
+}
+
+/* Ensure images don't stretch the article content */
+#projects article img {
+    flex-shrink: 0; /* Prevents images from shrinking */
+    object-fit: contain; /* Ensures image aspect ratio is maintained */
+}
+
+/* Media query for smaller screens to adjust layout */
+@media (max-width: 768px) {
+    body {
+        padding: var(--spacing-md) 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    header {
+        margin-bottom: var(--spacing-md);
+    }
 }
