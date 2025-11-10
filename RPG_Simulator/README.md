@@ -30,23 +30,17 @@ This project showcases **object-oriented programming**, **class inheritance**, a
 ### 1. Character Class (`Character`)
 
 Base class for all characters in the game.  
-
 Defines shared attributes (`name`, `level`, `hp`) and core functionality.  
-
-
 
 **Key Features:**
 - Inheritance base for `Player` and `Enemy`
-
 - Combine characters using `__add__`
-
 - Compare or print characters cleanly with `__str__`
 
 
 ### 2. Player Class (`Player`)
 
 Represents the player-controlled character.  
-
 Tracks experience points (XP), manages attacks, defenses, and leveling.  
 
 
@@ -54,23 +48,16 @@ Tracks experience points (XP), manages attacks, defenses, and leveling.
 * Attributes:
 
 &nbsp;	- `xp`: Experience points  
-
 &nbsp;	- `base_damage`: Attack power that scales with level  
-
 &nbsp;	- `defending`: Flag for reducing damage when defending  
-
 
 
 **Key Methods:**
 
 - `attack(target)`: Deals damage and grants XP per attack  
-
 - `add_xp(amount)`: Increases XP and triggers level-ups  
-
 - `level_up()`: Boosts HP and base damage  
-
 - `take_damage(value)`: Reduces HP based on incoming attacks  
-
 
 
 🧮 **XP System:**  
@@ -86,7 +73,6 @@ Represents AI-controlled foes with armor and attack power.
 
 
 **Attributes:**
-
 - `armor`: Damage buffer before HP loss  
 - `base_damage`: Attack power  
 
@@ -94,9 +80,7 @@ Represents AI-controlled foes with armor and attack power.
 **Key Methods:**
 
 - `attack(target)`: Attacks a random player  
-
 - `deal_damage()`: Applies a class-based damage multiplier  
-
 - `take_damage(value)`: Reduces armor first, then HP  
 
 
@@ -108,21 +92,14 @@ Damage applies to armor first; only leftover damage reduces HP.
 ### 4. **Battle Function (`battle(players, enemies)`)**
 
 Runs the **interactive turn-based battle loop**.  
-
 Players choose to **Attack** or **Defend** each round.  
-
-
 
 **Flow:**
 
 1. Each player takes a turn  
-
 2. Enemies retaliate  
-
 3. XP and bonus XP are awarded  
-
 4. Status is displayed  
-
 5. User decides to continue or quit  
 
 The battle ends when all players or enemies are defeated.  
@@ -144,6 +121,57 @@ The battle ends when all players or enemies are defeated.
 &nbsp;  Verify installation with:
 &nbsp;  ```bash
 &nbsp;  python --version
+
+2. **Run the script**
+- python RPGSimulator.py
+
+Follow the prompts to create characters and start the battle.
+
+## Example Run
+Welcome to the RPG Battle Simulator!
+
+How many players? 2
+Enter Player 1 name (default 'Ashen One'): Zelda
+Enter base damage (default 10):
+Enter Player 2 name (default 'Ashen One'): Sonic
+Enter base damage (default 10):
+
+How many enemies? 2
+Enter Enemy 1 name (default 'Goblin'): Oren
+Enter HP (default 50):
+Enter base damage (default 5):
+Enter Enemy 2 name (default 'Goblin'): Troll
+Enter HP (default 75):
+Enter base damage (default 5):
+
+--- Round 1 ---
+
+Zelda's turn! HP: 100, Level: 1, XP: 0
+Choose an action:
+1: Attack
+2: Defend
+Enter action number: 1
+
+Enemies:
+1: Oren - HP: 50, Armor: 10
+2: Troll - HP: 75, Armor: 10
+Choose enemy to attack (1-2): 2
+Zelda attacks Troll for 10.0 damage!
+Zelda gains 5 XP! Total XP: 5
+
+## 🏆 Future Enhancements
+- 🎒 Add an inventory system for items and potions
+- 🧙 Introduce classes (Mage, Warrior, etc.) with unique abilities
+- 🗡️ Add weapon and armor upgrades
+- 💾 Save/load player progress between sessions
+- 🕹️ Implement a graphical (GUI) interface
+- 📜 License
+
+This project is open-source and free to use in personal or educational portfolios.
+
+## 👨‍💻 Author
+Developed by [J. Toombs] — A Python-based portfolio project demonstrating OOP and game design fundamentals.
+
 
 
 
