@@ -2,7 +2,7 @@
 
 Welcome! This portfolio showcases Python projects I’ve built, demonstrating problem-solving, data handling, and object-oriented programming skills. Each project includes code samples, screenshots, and usage instructions.
 
-## Projects
+##  Projects
 
 ## RPG Character Simulator
 A Python program that simulates characters, players, and enemies with combat mechanics, inheritance, and operator overloading. Includes refactoring of previous code for better modularity and readability.
@@ -24,6 +24,8 @@ A Python program that allows users to manage a book catalog, track book checkout
 ![Book Catalog Preview](./Book_Catalog/BookCatalogMenu.png)
 
 [View project →](https://github.com/toombj95/my-portfolio/tree/main/Book_Catalog)
+
+
 
 ### Ultimate Disneyland App (Educational Project)
 A Python-based project created for a programming class, inspired by the theme park experience. This is an unofficial and educational simulation of ticketing and ride-tracking features.
@@ -56,6 +58,7 @@ A Python program that calculates tips, handles bill splitting, and validates inp
 - Recursion and algorithmic problem solving
 - File system handling (os module)
 - Markdown for documentation
+
 
 
 
