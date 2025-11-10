@@ -1,216 +1,131 @@
-/* ------------------------------------
-  1. Global Reset and Variables
------------------------------------- */
-:root {
-    /* Define color palette */
-    --color-primary: #1e1e1e;       /* Dark Charcoal for background/text */
-    --color-secondary: #ffffff;     /* White for main text/accents */
-    --color-background: #f4f4f4;    /* Light Gray for main body background */
-    --color-accent: #008080;        /* Deep Teal/Cyan for links/highlights (Not blue, but vibrant) */
-    --color-accent-hover: #00a0a0;  /* Lighter Teal for hover */
-    --color-card-background: #ffffff; /* White for project cards */
-
-    /* Typography */
-    --font-heading: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    --font-body: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-
-    /* Spacing */
-    --spacing-lg: 3rem;
-    --spacing-md: 1.5rem;
-    --spacing-sm: 0.75rem;
-}
-
-/* Simple reset for better cross-browser consistency */
-* {
+/* === Global Styles === */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F8F8F8;  /* Off-White Background */
+    color: #222222;              /* Charcoal Black Text */
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-/* ------------------------------------
-  2. Base Layout and Typography
------------------------------------- */
-body {
-    font-family: var(--font-body);
-    color: var(--color-primary);
-    background-color: var(--color-background);
     line-height: 1.6;
-    padding: var(--spacing-lg) 0; /* Vertical padding for separation from edges */
 }
 
-/* Max width container for central alignment */
-main, header, footer {
-    max-width: 1000px;
-    margin: 0 auto; /* Center the content */
-    padding: 0 var(--spacing-md); /* Horizontal padding */
-}
-
-h1, h2, h3 {
-    font-family: var(--font-heading);
-    color: var(--color-primary);
-    margin-bottom: var(--spacing-sm);
-    line-height: 1.2;
+/* === Headers === */
+h1, h2, h3, h4 {
+    color: #0B3D3A;  /* Deep Teal for headings */
+    margin-top: 1em;
+    margin-bottom: 0.5em;
 }
 
 h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+    font-size: 2.5em;
 }
 
 h2 {
-    font-size: 2rem;
-    border-bottom: 2px solid var(--color-accent); /* Underline section titles */
-    padding-bottom: 0.5rem;
-    margin-top: var(--spacing-lg);
+    font-size: 2em;
 }
 
 h3 {
-    font-size: 1.5rem;
-    color: var(--color-accent);
+    font-size: 1.5em;
 }
 
-p {
-    margin-bottom: var(--spacing-sm);
-}
-
-/* ------------------------------------
-  3. Header (Bio / Intro)
------------------------------------- */
-header {
-    text-align: center;
-    padding: var(--spacing-lg);
-    background-color: var(--color-card-background);
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: var(--spacing-lg);
-}
-
-header p {
-    font-size: 1.1rem;
-    max-width: 700px;
-    margin: 0.5rem auto;
-}
-
-/* ------------------------------------
-  4. Links and Interactivity
------------------------------------- */
+/* === Links === */
 a {
-    color: var(--color-accent); /* Make links stand out */
+    color: #1ABC9C;  /* Turquoise Links */
     text-decoration: none;
-    transition: color 0.3s ease; /* Smooth transition for hover effect */
-    font-weight: 600; /* Bolder for visibility */
+    transition: color 0.3s ease;
 }
 
 a:hover {
-    color: var(--color-accent-hover);
-    text-decoration: underline;
+    color: #E67E22;  /* Burnt Orange on hover */
 }
 
-/* Special styling for project links */
-#projects article p a {
-    display: inline-block;
-    margin-top: var(--spacing-sm);
-    padding: 0.2rem 0.5rem;
-    border: 1px solid var(--color-accent);
-    border-radius: 4px;
+/* === Navigation / Contact Banner === */
+header, footer {
+    background-color: #EAEAEA;  /* Light gray background */
+    padding: 1em 2em;
+    text-align: center;
 }
 
-/* ------------------------------------
-  5. Projects Section (Main Content)
------------------------------------- */
-#projects {
-    display: grid;
-    /* Grid for flexible layout: one column on small screens, two on larger */
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: var(--spacing-md);
-    margin-bottom: var(--spacing-lg);
+header a, footer a {
+    color: #1ABC9C;
+    margin: 0 0.5em;
 }
 
-#projects article {
-    background-color: var(--color-card-background);
-    padding: var(--spacing-md);
+header a:hover, footer a:hover {
+    color: #E67E22;
+}
+
+/* === Sections / Containers === */
+section {
+    padding: 2em;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.project-card {
+    background-color: #FFFFFF;  /* White cards for projects */
+    border: 1px solid #DDD;     /* Subtle border */
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
-    transition: transform 0.3s ease;
-    display: flex;
-    flex-direction: column;
+    padding: 1.5em;
+    margin-bottom: 2em;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-#projects article:hover {
-    transform: translateY(-5px); /* Lift card on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
 }
 
-/* Image styling within articles */
-#projects article img {
+/* === Images === */
+.project-card img {
     max-width: 100%;
     height: auto;
-    border-radius: 4px;
-    margin-top: var(--spacing-sm);
-    margin-bottom: var(--spacing-sm);
-    /* For multiple images in one article (e.g., Ultimate Disneyland App) */
-    width: 100%; /* ensures they stack nicely */
+    border-radius: 5px;
+    margin-top: 1em;
 }
 
-/* ------------------------------------
-  6. Skills Section
------------------------------------- */
-#skills {
-    padding: var(--spacing-md);
-    background-color: var(--color-card-background);
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: var(--spacing-lg);
+/* === Buttons / Call-to-Action === */
+button, .btn {
+    background-color: #1ABC9C;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.6em 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-#skills ul {
-    list-style: none; /* Remove default bullet points */
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap; /* Allow items to wrap */
-    gap: 10px; /* Space between list items */
+button:hover, .btn:hover {
+    background-color: #E67E22;
 }
 
-#skills li {
-    background-color: var(--color-accent);
-    color: var(--color-secondary); /* White text on Teal background */
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    font-weight: 500;
+/* === Lists / Skills Section === */
+ul, ol {
+    margin-left: 1.5em;
 }
 
-/* ------------------------------------
-  7. Footer (Contact)
------------------------------------- */
-footer {
-    text-align: center;
-    padding: var(--spacing-md);
-    border-top: 1px solid #ccc;
-    font-size: 0.9rem;
-    margin-top: var(--spacing-lg);
+/* === Small Accents === */
+.accent {
+    color: #8E44AD;  /* Muted purple for icons or highlights */
 }
 
-/* Ensure images don't stretch the article content */
-#projects article img {
-    flex-shrink: 0; /* Prevents images from shrinking */
-    object-fit: contain; /* Ensures image aspect ratio is maintained */
+/* === Footer Text === */
+footer p {
+    font-size: 0.9em;
+    color: #555;
 }
 
-/* Media query for smaller screens to adjust layout */
+/* === Responsive === */
 @media (max-width: 768px) {
     body {
-        padding: var(--spacing-md) 0;
+        font-size: 16px;
     }
 
-    h1 {
-        font-size: 2rem;
+    header, footer {
+        padding: 1em;
     }
 
-    h2 {
-        font-size: 1.5rem;
-    }
-
-    header {
-        margin-bottom: var(--spacing-md);
+    .project-card {
+        padding: 1em;
     }
 }
