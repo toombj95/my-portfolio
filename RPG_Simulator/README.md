@@ -45,7 +45,7 @@ Tracks experience points (XP), manages attacks, defenses, and leveling.
 
 
 
-* Attributes:
+** Attributes:**
 
 &nbsp;	- `xp`: Experience points  
 &nbsp;	- `base_damage`: Attack power that scales with level  
@@ -182,6 +182,7 @@ This project is open-source and free to use in personal or educational portfolio
 
 ## 👨‍💻 Author
 Developed by [J. Toombs] — A Python-based portfolio project demonstrating OOP and game design fundamentals.
+
 
 
 
